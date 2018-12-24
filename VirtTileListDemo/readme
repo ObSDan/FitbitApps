@@ -1,0 +1,4 @@
+Tested and works with SDK 3.0. Other versions have not been tested.
+
+I have only built/tested Ionic - I do not have a Versa, but the code should all be identical.
+Just remember to check the Versa box in package.json!
