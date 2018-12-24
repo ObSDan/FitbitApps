@@ -1,0 +1,31 @@
+<svg>
+  
+  <defs>
+    <symbol id="my-tile-item" href="#tile-list-item" focusable="false" pointer-events="none" system-events="all" display="none">
+      <text id="text" />
+      <rect id="tile-divider-bottom" class="tile-divider-bottom" />
+      <rect id="touch-me" pointer-events="all" x="0" y="0" width="100%" height="100%-2" opacity="0" />
+    </symbol>
+  </defs>
+  
+  <use id="list" href="#tile-list">
+    <var id="reorder-enabled" value="0" />
+    <var id="peek-enabled" value="1" />
+    <var id="separator-height-bottom" value="2" />
+    <var id="virtual" value="1" />
+
+    <use id="pool" href="#tile-list-pool">
+      <use id="pool[0]" href="#my-tile-item" class="tile-list-item" />
+      <use id="pool[1]" href="#my-tile-item" class="tile-list-item" />
+      <use id="pool[2]" href="#my-tile-item" class="tile-list-item" />
+      <use id="pool[3]" href="#my-tile-item" class="tile-list-item" />
+      <use id="pool[4]" href="#my-tile-item" class="tile-list-item" />
+      <use id="pool[5]" href="#my-tile-item" class="tile-list-item" />
+      <use id="pool[6]" href="#my-tile-item" class="tile-list-item" />
+      <use id="pool[7]" href="#my-tile-item" class="tile-list-item" />
+      <use id="pool[8]" href="#my-tile-item" class="tile-list-item" />
+      <use id="pool[9]" href="#my-tile-item" class="tile-list-item" />
+    </use>
+  </use>
+  
+</svg>
